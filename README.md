@@ -2,6 +2,8 @@
 
 [Data Analytics Full-Time Barcelona, April 2019]
 
+[Trello](https://trello.com/b/m2pHw7Dg/exoplanets)
+
 # Overview
 
 * What data/business/research/personal question you would like to answer? Make sure the question description is human-friendly because you will have non-tech audience to see your final project presentation.
