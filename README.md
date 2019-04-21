@@ -10,6 +10,8 @@ Data analysis of the almost 10000 exoplanets detected by the Kepler space telesc
 
 ### Ideas and hypothesis
 
+Having a look at the data we could ask the following questions:
+
 * How many of the Kepler detections ended up being confirmed exoplanets.
 * Have a look at the main characteristics of 4K confirmed exoplanets
 * Ratio of habitable planets of the total of confirmed exoplanets.
@@ -18,17 +20,18 @@ Data analysis of the almost 10000 exoplanets detected by the Kepler space telesc
 
 ~~* Did you understand the context for the question and the scientific or business application?
 * What is the hypothesis you would like to test in order to answer your question? Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
-~~* Did you consider whether the question could be answered with the available data?
-* How will you test your hypothesis?
+~~* How will you test your hypothesis?
 ~~* How will you test your success?
 
 # Data preparation
 
-~~* What is your dataset about?
+The first dataset is the Kepler Exoplanet Search Results from Kaggle and has information about the 10000 exoplanet candidates examined by the Kepler Space Observatory. 
 
-10000 exoplanet candidates examined by the Kepler Space Observatory
+The second dataset is also public and downloaded from the website of Planetary Habitability Laboratory (PHL). It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
 
-~~* Where/how did you obtain your dataset? It can be either a public dataset or collected with API/web scraping. Provide a link if possible.
+The dasates used in the project are public and can be found here:  
+[Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
+[(Planetary Habitability Laboratory) PHL's exoplanets catalogue](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database)
 
 ~~* General description of the dataset such as the size, complexity, data types, etc.
 
@@ -36,9 +39,6 @@ Data analysis of the almost 10000 exoplanets detected by the Kepler space telesc
 
 ~~* If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
 
-The dasates used in the project are public and can be found here:  
-[Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
-[(Planetary Habitability Laboratory) PHL's exoplanets catalogue](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database)
 
 * Provide a schema of your tables.
 
