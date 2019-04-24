@@ -50,6 +50,10 @@ Both datasets are complex since they have astronomical technical information.
 
 # Data Analysis
 
+Hypothesis testing to prove Kepler's third law.
+T-test for difference significance between different types of planets.
+Random Forest to classify Kepler objects into exoplanets or false negatives.
+
 ~~* Overview the general steps you will go through to analyze your data in order to test your hypothesis.
 * Document each step of your data exploration and analysis.
 ~~* Print charts to demonstrate the effect of your work. Charts make your presentation look good too.
