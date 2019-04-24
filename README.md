@@ -2,30 +2,33 @@
 
 [Data Analytics Full-Time Barcelona, April 2019]
 
-[Trello](https://trello.com/b/m2pHw7Dg/exoplanets)
-
 # Overview
 
-Study of almost 10000 exoplanets detected by the Kepler Space Telescope and almost 4K of a total of confirmed exoplanets in astronomical literature.
+Exploratory analysis and explonet classification of the stellar objects detected by the Kepler Space Telescope and confirmed exoplanets from astronomical literature.
 
 ### Ideas and hypothesis
 
 Having a look at the data we could ask the following questions:
 
 * How many of the Kepler detections ended up being confirmed exoplanets?
-* What are the main characteristics of the confirmed exoplanets?
 * What is the ratio of habitable planets of the total of confirmed exoplanets?
-* Can we use machine learning to classify the different types of exoplanets?
+* What are the main characteristics of the confirmed exoplanets and their stars?
+* Can we prove Kepler's third law of planetary motion (Law of Periods)?
+"The law states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit."
 
-* What is the hypothesis you would like to test in order to answer your question? Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
-~~* How will you test your hypothesis?
-~~* How will you test your success?
+    Null hypothesis: the law of periods is not met.
+    Alternative hypothesis: the law of periods is met.
+
+* Can we use machine learning to classify confirmed exoplanets? And to classify the type of exoplanet?
+
+
 
 # Data preparation
 
 The first dataset is the Kepler Exoplanet Search Results from Kaggle and has information about the 10000 exoplanet candidates examined by the Kepler Space Observatory. 
 * Shape: (9564, 50)
 * Size: 3.7 MB
+* Complexity: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
 * Data types:
 
 The second dataset is also public and downloaded from the website of Planetary Habitability Laboratory (PHL). It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
@@ -47,7 +50,10 @@ Both datasets are complex since they have astronomical technical information. Th
 
 # Data Wrangling and Cleaning
 
-
+1. Checking that the types of the columns are OK, renaming if needed and dropping NaN values and information we don't need.
+2. Outliers:
+    2.1. High collinearity
+    2.2 IQR
 
 ~~Your full process of data wrangling and cleaning.
 * Document your workflow and thinking process.
