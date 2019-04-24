@@ -4,7 +4,7 @@
 
 # Overview
 
-Exploratory analysis and explonet classification of the stellar objects detected by the Kepler Space Telescope and confirmed exoplanets from astronomical literature.
+Exploratory analysis and exoplanet classification of the stellar objects detected by the Kepler Space Telescope and confirmed exoplanets from astronomical literature.
 
 ### Ideas and hypothesis
 
@@ -13,7 +13,7 @@ Having a look at the data we could ask the following questions:
 * How many of the Kepler detections ended up being confirmed exoplanets?
 * What is the ratio of habitable planets of the total of confirmed exoplanets?
 * What are the main characteristics of the confirmed exoplanets and their stars?
-* Can we prove Kepler's third law of planetary motion (Law of Periods)?
+* Can we prove Kepler's third law of planetary motion (Law of Periods)?  
 "The law states that the square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit."
 
     Null hypothesis: the law of periods is not met.  
@@ -50,9 +50,9 @@ Both datasets are complex since they have astronomical technical information.
 
 # Data Analysis
 
-Hypothesis testing to prove Kepler's third law.
-T-test for difference significance between different types of planets.
-Random Forest to classify Kepler objects into exoplanets or false negatives.
+Hypothesis testing to prove Kepler's third law.  
+T-test for significance between different types of planets.  
+Random Forest to classify Kepler objects into exoplanets or false negatives.  
 
 ~~* Overview the general steps you will go through to analyze your data in order to test your hypothesis.
 * Document each step of your data exploration and analysis.
@@ -62,17 +62,24 @@ Random Forest to classify Kepler objects into exoplanets or false negatives.
 # Model Training and Evaluation
 
 ~~* Train your ML model, produce results, and evaluate.
-* This is an iterative process. Try your best to improve your model performance by:
 ~~* Try different models and select one that is the simplest yet produce the best result.
-* Try advanced techniques and see if they improve the result.
 
 # Conclusion
 
-~~* Summarize your data analysis result.
+* Kepler's third law of periods is valid.
+    
+* Habitable planets are very rare.
+
 * State your conclusion of your hypothesis testing.
+
+* Not data enough to try to classify habitability of the exoplanet with machine learning,
+
 ~~* Interpret your findings in terms of the human-understandable question you try to answer.
 
 # What are the next steps?
+
+Finding out about the radius behaviour of the gas exoplanets.
+More data exploration.
 
 
 
