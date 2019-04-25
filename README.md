@@ -61,7 +61,7 @@ Calculated correlation, Pearson's R and R squared.
 # Model Training and Evaluation
 
 With the Randome forest classifier we got an accuracy of 0.86.  
-![Metric]([https://ibb.co/8gnxdx6)
+![Metric](https://i.ibb.co/fdVNnN4/Screenshot-2019-04-25-at-08-54-54.png)
 
 # Conclusion
 
