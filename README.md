@@ -73,9 +73,7 @@ With the Randome forest classifier we got an accuracy of 0.86.
 
 * State your conclusion of your hypothesis testing.
 
-* Not data enough to try to classify habitability of the exoplanet with machine learning,
-
-~~* Interpret your findings in terms of the human-understandable question you try to answer.
+* Not data enough to try to classify habitability of the exoplanet with machine learning.
 
 # What are the next steps?
 
