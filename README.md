@@ -40,6 +40,7 @@ Both datasets are complex since they have astronomical technical information.
 Using pandas to read the information from original .CSV and cleaning. After that, reading the clean information from SQL to do the analysis and machine learning.  
 
 ![Kepler database clean](https://i.ibb.co/Sd6gV2P/Screenshot-2019-04-25-at-09-00-00.png)  
+  
 Habitability database has too many columns to show in a picture.  
   
 # Data Wrangling and Cleaning
