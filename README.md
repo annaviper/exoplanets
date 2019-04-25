@@ -41,8 +41,9 @@ Using pandas to read the information from original .CSV and cleaning. After that
   
 ![Kepler database clean](https://i.ibb.co/Sd6gV2P/Screenshot-2019-04-25-at-09-00-00.png)  
   
-Habitability database has too many columns to show in a picture.  
-  
+Habitability database has too many columns to show in a picture.    
+![Habitability](https://i.ibb.co/M7t4D1L/Screenshot-2019-04-25-at-09-09-28.png)    
+    
 # Data Wrangling and Cleaning
 
 1. Checking dtypes, renaming columns for use of MySQL and better understanding, dropping NaN values and information not needed.
