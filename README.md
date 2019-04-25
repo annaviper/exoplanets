@@ -20,7 +20,6 @@ Having a look at the data we could ask the following questions:
 
 # Data preparation
 
-Both datasets are complex since they have astronomical technical information.   
 The first dataset is the Kepler Exoplanet Search Results from Kaggle and has information about the objects detected by the Kepler Space Observatory. 
 * Shape: (9564, 50)
 * Size: 3.7 MB
@@ -29,7 +28,9 @@ The first dataset is the Kepler Exoplanet Search Results from Kaggle and has inf
 The second dataset is also public and downloaded from the website of Planetary Habitability Laboratory (PHL) from the University of Puerto Rico. It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
 * Shape: (3873, 68)
 * Size: 1.6 MB
-* Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database
+* Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database  
+  
+Both datasets are complex since they have astronomical technical information.   
 
 [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)  
 [(Planetary Habitability Laboratory) PHL's exoplanets catalogue](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database)
@@ -55,17 +56,12 @@ Using pandas to read the information from original .CSV and cleaning. After that
 Calculated correlation, Pearson's R and R squared.
 
 2. T-test for significance between different types of planets.  
-Random Forest to classify Kepler objects into exoplanets or false negatives.  
-
-~~* Overview the general steps you will go through to analyze your data in order to test your hypothesis.
-* Document each step of your data exploration and analysis.
-~~* Print charts to demonstrate the effect of your work. Charts make your presentation look good too.
-* If you use ML in your final project, also describe your feature selection process.
+3. Random Forest to classify Kepler objects into exoplanets or false negatives.  
 
 # Model Training and Evaluation
 
-~~* Train your ML model, produce results, and evaluate.
-~~* Try different models and select one that is the simplest yet produce the best result.
+With the Randome forest classifier we got an accuracy of 0.86.  
+![Metric]([https://ibb.co/8gnxdx6)
 
 # Conclusion
 
