@@ -5,7 +5,7 @@ Data Analytics Full-Time Barcelona, April 2019
 
 # Overview
 
-Exploratory analysis of Kepler's telescope detections, the habitability of confirmed exoplanets and their characteristics. Classification of Kepler's detections in exoplanets or false positives with machine learning.
+Exploratory analysis of Kepler's telescope detections, the habitability of confirmed exoplanets and their characteristics. Classification of Kepler's detections into exoplanets or false positives with machine learning.
 
 ### Ideas and hypothesis
 
@@ -30,7 +30,7 @@ The second dataset is also public and downloaded from the website of Planetary H
 * Size: 1.6 MB
 * Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database  
    
-Links to datasets:
+Links to datasets:  
 [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)  
 [(Planetary Habitability Laboratory) PHL's exoplanets catalogue](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database)
    
@@ -46,8 +46,9 @@ Links to datasets:
 
 # Data Wrangling and Cleaning
 
-1. Checking dtypes, renaming columns to use in MySQL and better understanding, dropping NaN values and information not needed.
-2. Visualizing outliers. Outliers won't be removed unless it is needed, since data has already gone through a scientific test to be part of the database. In case they interfere a lot with the analysis, only then they will be removed. 
+* Checking dtypes, renaming columns to use in MySQL and better understanding, dropping NaN values and information not needed.
+  
+* Visualizing outliers. Outliers won't be removed unless it is needed, since data has already gone through a scientific test to be part of the database. In case they interfere a lot with the analysis, only then they will be removed. 
   
     
 # Data Analysis
