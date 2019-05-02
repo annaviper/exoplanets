@@ -77,15 +77,9 @@ With the Randome forest classifier we got an accuracy of 0.86.
     
 * Habitable planets are very rare.
 
-* State your conclusion of your hypothesis testing.
-
 * Not data enough to try to classify habitability of the exoplanet with machine learning.
 
 # What are the next steps?
 
 - Finding out about the radius behaviour of the gas exoplanets.
 - More data exploration.
-
-
-
-
