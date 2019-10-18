@@ -67,7 +67,7 @@ Calculated correlation, Pearson's R and R squared.
 
 # Model Training and Evaluation
 
-With the Random Forest Classifier we got an accuracy of 0.90.
+With the Random Forest Classifier we got an accuracy of 0.90.  
 With KNN and Logistic Regression we got an accuracy of 0.79.
 
 # Conclusion
