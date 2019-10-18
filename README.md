@@ -63,14 +63,15 @@ Links to datasets:
 Calculated correlation, Pearson's R and R squared.
 
 2. T-test for significance between different types of planets.  
-3. Random Forest to classify Kepler objects into exoplanets or false negatives.  
+3. Random forest, KNN and logistic regression to classify Kepler objects into exoplanets or false negatives.  
 
 # Model Training and Evaluation
 
-With the Random Forest Classifier we got an accuracy of 0.86.  
+Accuracy scores:  
+- KNN: 0.81
+- Logistic regression: 0.79
+- Random Forest: 0.89
   
-  
-![Metric](https://i.ibb.co/fdVNnN4/Screenshot-2019-04-25-at-08-54-54.png)
 
 # Conclusion
 
@@ -78,7 +79,7 @@ With the Random Forest Classifier we got an accuracy of 0.86.
     
 * Habitable planets are very rare.
 
-* We can classify a Kepler's telescope detection into exoplanet or false positive 86% of the time.
+* We can classify a Kepler's telescope detection into exoplanet or false positive 0.81% of the time.
 
 * Not data enough to try to classify habitability of the exoplanet.
 
