@@ -51,7 +51,7 @@ Links to datasets:
 * Visualizing outliers. Outliers won't be removed unless it is needed, since data has already gone through a scientific test to be part of the database. In case they interfere a lot with the analysis, only then they will be removed. 
   
     
-# Data Analysis
+# Data Analysis & ML
 
 1. Hypothesis testing to prove Kepler's third law of planetary motion. The law states:   
 
@@ -65,18 +65,15 @@ Calculated correlation, Pearson's R and R squared.
 2. T-test for significance between different types of planets.  
 3. Random forest, KNN and logistic regression to classify Kepler objects into exoplanets or false negatives.  
 
-# Model Training and Evaluation
+## Model Training and Evaluation
 
-<<<<<<< HEAD
+1. Preprocessing of the data: removal of columns with high collinearity, normalizing data, encoding categorical values.  
+
 Accuracy scores:  
 - KNN: 0.81
 - Logistic regression: 0.79
 - Random Forest: 0.89
   
-=======
-With the Random Forest Classifier we got an accuracy of 0.90.  
-With KNN and Logistic Regression we got an accuracy of 0.79.
->>>>>>> fef3fee3eac73301c91a16b8165347eb4a43d73f
 
 # Conclusion
 
