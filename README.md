@@ -67,11 +67,16 @@ Calculated correlation, Pearson's R and R squared.
 
 # Model Training and Evaluation
 
+<<<<<<< HEAD
 Accuracy scores:  
 - KNN: 0.81
 - Logistic regression: 0.79
 - Random Forest: 0.89
   
+=======
+With the Random Forest Classifier we got an accuracy of 0.90.  
+With KNN and Logistic Regression we got an accuracy of 0.79.
+>>>>>>> fef3fee3eac73301c91a16b8165347eb4a43d73f
 
 # Conclusion
 
