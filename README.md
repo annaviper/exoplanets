@@ -90,3 +90,7 @@ Accuracy scores:
 
 - Finding out about the radius behaviour of the gas exoplanets.
 - More data exploration.
+
+# Slides
+
+https://docs.google.com/presentation/d/12wC4PkwdBHOSofVmU3FqU4M3JNu8dGowPsvZTVexUAQ/edit?usp=sharing
