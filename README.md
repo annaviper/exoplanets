@@ -71,8 +71,9 @@ Calculated correlation, Pearson's R and R squared.
 
 Accuracy scores:  
 - KNN: 0.81
-- Logistic regression: 0.79
+- Logistic regression: 0.80
 - Random Forest: 0.89
+- Random Forest with number of parameters = 100: 0.90
   
 
 # Conclusion
