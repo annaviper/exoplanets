@@ -16,19 +16,15 @@ Having a look at the data we could ask the following questions:
    
 # Datasets
   
-1. The first dataset is the [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)   from Kaggle and has information about the objects detected by the Kepler Space Observatory. 
+The first dataset is the [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)   from Kaggle and has information about the objects detected by the Kepler Space Observatory. 
 * Shape: (9564, 50)
 * Size: 3.7 MB
 * Complexity: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
-
-![Kepler database clean](https://i.ibb.co/Sd6gV2P/Screenshot-2019-04-25-at-09-00-00.png)  
     
-2. The second dataset is also public and downloaded from [Planetary Habitability Laboratory (PHL)](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database), University of Puerto Rico. It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
+The second dataset is also public and downloaded from [Planetary Habitability Laboratory (PHL)](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database), University of Puerto Rico. It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
 * Shape: (3873, 68)
 * Size: 1.6 MB
 * Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database  
-
-![Habitability](https://i.ibb.co/M7t4D1L/Screenshot-2019-04-25-at-09-09-28.png)    
     
 # Data Analysis
 
