@@ -1,0 +1,6 @@
+awesome_streamlit
+logging
+streamlit
+pandas
+numpy
+plotly
