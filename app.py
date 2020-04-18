@@ -27,7 +27,8 @@ def main():
     page = PAGES[selection]
 
     with st.spinner(f"Loading {selection} ..."):
-        ast.shared.components.write_page(page)
+        # ast.shared.components.write_page(page)
+        page.write()
 
     st.sidebar.title("\n\n\n\n\n\n\n")
     st.sidebar.info("""[Github repository](https://github.com/annaviper/exoplanets)""")

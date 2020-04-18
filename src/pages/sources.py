@@ -31,8 +31,6 @@ The second dataset is the [Kepler Exoplanet Search Results](https://www.kaggle.c
 * Complexity: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
 """)
 
-
-
     # with st.spinner("Loading resources ..."):
     #     markdown = resources.get_resources_markdown(
     #         tags, author, show_awesome_resources_only

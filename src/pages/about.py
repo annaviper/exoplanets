@@ -8,6 +8,6 @@ def write():
     with st.spinner("Loading About ..."):
         # ast.shared.components.title_awesome(" - About")
         st.markdown(
-            """whatever""",
+            """Anna Viper""",
             unsafe_allow_html=True,
         )
