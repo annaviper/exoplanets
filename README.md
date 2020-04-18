@@ -2,7 +2,7 @@ Exoplanets and its habitability, by Anna Vidal Perez
 
 # Overview
 
-Exploratory analysis of Kepler's telescope detections, the habitability of confirmed exoplanets and their characteristics. Classification of Kepler's detections into exoplanets or false positives with machine learning.
+Exploratory analysis of Kepler's telescope detections and habitability of confirmed exoplanets. Classification of Kepler's detections into exoplanets or false positives with machine learning.
 
 ### Ideas and hypothesis
 
@@ -16,15 +16,15 @@ Having a look at the data we could ask the following questions:
    
 # Datasets
   
-The first dataset is the [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)   from Kaggle and has information about the objects detected by the Kepler Space Observatory. 
+The first dataset is the [Kepler Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) from Kaggle and has information about the objects detected by the Kepler Space Observatory. This dataset will be used for machine learning classificiation. 
 * Shape: (9564, 50)
 * Size: 3.7 MB
 * Complexity: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
     
-The second dataset is also public and downloaded from [Planetary Habitability Laboratory (PHL)](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database), University of Puerto Rico. It has more than 3000 already confirmed planets and contains interesting information about their possible habitability.
+The second dataset is also public and downloaded from [Planetary Habitability Laboratory (PHL)](http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database), University of Puerto Rico. It has more than 3000 already confirmed planets and contains interesting information about their possible habitability. It is the dataset used for the exploratory analysis of planet habitability.
 * Shape: (3873, 68)
 * Size: 1.6 MB
-* Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database  
+* Complexity: http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database
     
 # Data Analysis
 
