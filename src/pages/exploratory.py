@@ -11,10 +11,10 @@ def write():
     def load_data(URL):
         return pd.read_csv(URL)
 
-    # data_load_state = st.text('Loading data...')
+    # data_load_state = st.text('Loading datasets...')
     URL = 'datasets/kepler_processed.csv'
     df = load_data(URL)
-    # data_load_state.text('Loading data...done')
+    # data_load_state.text('Loading datasets...done')
 
     # DISPOSITION
     st.title('Disposition of Kepler\'s detections')
