@@ -1,5 +1,4 @@
 import streamlit as st
-import awesome_streamlit as ast
 import src.pages.home
 import src.pages.sources
 import src.pages.exploratory
@@ -27,7 +26,6 @@ def main():
     page = PAGES[selection]
 
     with st.spinner(f"Loading {selection} ..."):
-        # ast.shared.components.write_page(page)
         page.write()
 
     st.sidebar.title("\n\n\n\n\n\n\n")
