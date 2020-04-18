@@ -11,10 +11,10 @@ def write():
     def load_data(URL):
         return pd.read_csv(URL)
 
-    # data_load_state = st.text('Loading datasets...')
-    URL = 'datasets/kepler_processed.csv'
+    # data_load_state = st.text('Loading data...')
+    URL = 'data/kepler_processed.csv'
     df = load_data(URL)
-    # data_load_state.text('Loading datasets...done')
+    # data_load_state.text('Loading data...done')
 
     # DISPOSITION
     st.title('Disposition of Kepler\'s detections')
@@ -31,7 +31,7 @@ def write():
     st.title('Third law of Kepler')
     st.info("'The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit.'")
 
-    URL = 'datasets/phl_new_processed.csv'
+    URL = 'data/phl_new_processed.csv'
     df = load_data(URL)
 
     df_kepler = df[['p_period', 'p_semi_major_axis']].copy()

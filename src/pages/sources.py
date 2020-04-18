@@ -27,7 +27,7 @@ This dataset is used for machine learning classification.
 * Complexity: https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
 """)
 
-    # if st.sidebar.checkbox("Show datasets sources"):
+    # if st.sidebar.checkbox("Show data sources"):
     #     st.subheader("Source JSON")
     #     st.write(ast.database.RESOURCES)
     #
