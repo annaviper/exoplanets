@@ -8,8 +8,8 @@ def write():
 # Overview
 
 This is the final project for the Data Analytics bootcamp I did in early 2019. 
-This data project is divided in two: the first part is the analysis of the characteristics of confirmed exoplanets. 
-The second, is the classification of Kepler's detections into confirmed exoplanets or false positives with machine learning.
+The project is divided in two: the first part is the exploratory analysis of confirmed exoplanets. 
+The second is the classification of Kepler's detections into confirmed exoplanets or false positives with machine learning.
 
 ### Questions
 
