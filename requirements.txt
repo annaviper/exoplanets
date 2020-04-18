@@ -1,5 +1,5 @@
 # awesome_streamlit
-logging
+# logging
 streamlit
 pandas
 numpy
